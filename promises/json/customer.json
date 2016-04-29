@@ -1,0 +1,49 @@
+{
+  "users":[{
+     "firstName": "John",
+     "lastName": "Smith",
+     "age": 25,
+     "address":
+     {
+         "streetAddress": "21 2nd Street",
+         "city": "New York",
+         "state": "NY",
+         "postalCode": "10021"
+     },
+     "phoneNumber":
+     [
+         {
+           "type": "home",
+           "number": "212 555-1234"
+         },
+         {
+           "type": "fax",
+           "number": "646 555-4567"
+         }
+     ]
+ },
+  {
+     "firstName": "Rangaraj",
+     "lastName": "Shanmugam",
+     "age": 29,
+     "address":
+     {
+         "streetAddress": "9/52 P.N Road",
+         "city": "Samathur",
+         "state": "TN",
+         "postalCode": "642123"
+     },
+     "phoneNumber":
+     [
+         {
+           "type": "Personal",
+           "number": "9066939656"
+         },
+         {
+           "type": "fax",
+           "number": "646 555-4567"
+         }
+     ]
+ }
+  ]
+}

@@ -1,12 +1,8 @@
-angular.module('reusableDirectives',['ngRoute','popupModule','tabModule'])
+angular.module('angularPromises',['ngRoute','promiseModule'])
 .config(function($routeProvider){
   $routeProvider.when("/",{
-      templateUrl:"popup/views/popup.html",
-      controller:"popupCtrl",
-  });
-  $routeProvider.when("/tab",{
-      templateUrl:"tab/views/tab.html",
-      controller:"tabCtrl",
+      templateUrl:"promises/promise.html",
+      controller:"promiseCtrl",
   });
   $routeProvider.otherwise({
       redirectTo:"/"
