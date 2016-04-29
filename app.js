@@ -1,0 +1,14 @@
+angular.module('reusableDirectives',['ngRoute','popupModule','tabModule'])
+.config(function($routeProvider){
+  $routeProvider.when("/",{
+      templateUrl:"popup/views/popup.html",
+      controller:"popupCtrl",
+  });
+  $routeProvider.when("/tab",{
+      templateUrl:"tab/views/tab.html",
+      controller:"tabCtrl",
+  });
+  $routeProvider.otherwise({
+      redirectTo:"/"
+  });
+});
